@@ -20,7 +20,7 @@ export function ContactSection() {
                 {
                   icon: Phone,
                   title: "Phone",
-                  content: "(888) 555-CLEAN",
+                  content: "+1 (250) 317-8568",
                   subtitle: "Mon-Sat, 8am-8pm EST",
                 },
                 {
