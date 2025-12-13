@@ -72,7 +72,7 @@ export function WhyUsSection() {
               <div>
                 <h3 className="text-xl font-semibold text-foreground">Ready to experience the difference?</h3>
                 <p className="text-muted-foreground">
-                  Call us anytime: <span className="text-foreground font-medium">(888) 555-CLEAN</span>
+                  Call us anytime: <span className="text-foreground font-medium">+1 (250) 317-8568</span>
                 </p>
               </div>
             </div>
