@@ -26,7 +26,7 @@ export function ContactSection() {
                 {
                   icon: Mail,
                   title: "Email",
-                  content: "hello@mapleclean.ca",
+                  content: "hello@captainkleen.ca",
                   subtitle: "We reply within 24 hours",
                 },
                 {
@@ -58,7 +58,7 @@ export function ContactSection() {
 
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-secondary overflow-hidden">
-              <img src="/modern-office-interior-with-plants-and-natural-lig.jpg" alt="Our office" className="w-full h-full object-cover" />
+              <img src="/images/canadian_office.png" alt="Our office" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 p-6 rounded-xl bg-card border border-border shadow-xl">
               <p className="text-lg font-medium text-foreground mb-2">&quot;We treat your home like our own&quot;</p>

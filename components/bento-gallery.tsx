@@ -6,119 +6,119 @@ export function BentoGallery() {
           <span className="text-primary font-medium tracking-wide uppercase text-sm">Our Work</span>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-3 mb-4">Spotless Results, Every Time</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            See the Maple Clean difference. Real results from real jobs across Canada.
+            See the CaptainKleen difference. Real results from real jobs across Canada.
           </p>
         </div>
 
         <div className="grid grid-cols-4 grid-rows-4 gap-4 h-[700px] md:h-[800px]">
           <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Sofa cleaning before and after results"
+              src="/images/1.jpeg"
+              alt="Professional residential cleaning"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Upholstery Cleaning
+                Residential Cleaning
               </span>
             </div>
           </div>
 
           <div className="col-span-2 row-span-1 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Room carpet deep cleaning in progress"
+              src="/images/2.jpeg"
+              alt="Deep carpet cleaning service"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Carpet Cleaning
+                Deep Carpet Clean
               </span>
             </div>
           </div>
 
           <div className="col-span-1 row-span-1 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Stairs carpet before and after cleaning"
+              src="/images/3.jpeg"
+              alt="Detailed stairs cleaning"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-3 left-3">
               <span className="bg-primary/90 text-primary-foreground px-2 py-0.5 rounded-full text-xs font-medium">
-                Stairs
+                Stairs Detail
               </span>
             </div>
           </div>
 
           <div className="col-span-1 row-span-1 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Professional mattress cleaning"
+              src="/images/4.jpeg"
+              alt="Mattress hygiene cleaning"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-3 left-3">
               <span className="bg-primary/90 text-primary-foreground px-2 py-0.5 rounded-full text-xs font-medium">
-                Mattress
+                Mattress Care
               </span>
             </div>
           </div>
 
           <div className="col-span-1 row-span-2 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Striped carpet cleaning by fireplace"
+              src="/images/5.jpeg"
+              alt="Commercial cleaning services"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Deep Clean
+                Commercial
               </span>
             </div>
           </div>
 
           <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Living room carpet cleaning between sofas"
+              src="/images/6.jpeg"
+              alt="Spacious living room cleaning"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Living Room
+                Living Area
               </span>
             </div>
           </div>
 
           <div className="col-span-1 row-span-1 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Dark carpet cleaning by fireplace"
+              src="/images/7.jpeg"
+              alt="Rug and spot cleaning"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-3 left-3">
               <span className="bg-primary/90 text-primary-foreground px-2 py-0.5 rounded-full text-xs font-medium">
-                Fireplace Area
+                Spot Treatment
               </span>
             </div>
           </div>
 
           <div className="col-span-1 row-span-1 relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Hallway carpet cleaning"
+              src="/images/8.jpeg"
+              alt="Hallway and corridor cleaning"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-3 left-3">
               <span className="bg-primary/90 text-primary-foreground px-2 py-0.5 rounded-full text-xs font-medium">
-                Hallway
+                Hallways
               </span>
             </div>
           </div>
@@ -127,42 +127,42 @@ export function BentoGallery() {
         <div className="grid grid-cols-3 gap-4 mt-4 h-[250px]">
           <div className="relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Carpet cleaning with professional wand"
+              src="/images/9.jpeg"
+              alt="Professional cleaning equipment"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Professional Equipment
+                Equipment
               </span>
             </div>
           </div>
 
           <div className="relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Living room carpet restoration"
+              src="/images/10.jpeg"
+              alt="Carpet fiber restoration"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Carpet Restoration
+                Restoration
               </span>
             </div>
           </div>
 
           <div className="relative rounded-3xl overflow-hidden group">
             <img
-              src="/images/whatsapp-20image-202025-11-20-20at-2006.jpeg"
-              alt="Stair carpet before and after"
+              src="/images/11.jpeg"
+              alt="Before and after comparison"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4">
               <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                Before & After
+                Results
               </span>
             </div>
           </div>

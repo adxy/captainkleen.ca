@@ -17,7 +17,7 @@ export function AboutSection() {
             </p>
             <p className="text-lg text-muted-foreground mb-8 text-pretty">
               Every member of our team is trained by us and shares our values: integrity, attention to detail, and
-              genuine care for our clients. When you book with Maple Clean Co., you&apos;re not just getting a cleaning
+              genuine care for our clients. When you book with CaptainKleen, you&apos;re not just getting a cleaning
               service — you&apos;re becoming part of our extended family.
             </p>
 
@@ -41,7 +41,7 @@ export function AboutSection() {
               <div className="space-y-4">
                 <div className="aspect-[4/5] rounded-2xl bg-secondary overflow-hidden">
                   <img
-                    src="/professional-cleaning-team-smiling-wearing-blue-un.jpg"
+                    src="/images/cleaning_team.png"
                     alt="Our professional cleaning team"
                     className="w-full h-full object-cover"
                   />
@@ -60,7 +60,7 @@ export function AboutSection() {
                 </div>
                 <div className="aspect-[4/5] rounded-2xl bg-secondary overflow-hidden">
                   <img
-                    src="/clean-modern-living-room-interior-bright-daylight.jpg"
+                    src="/images/canadian_living_room.png"
                     alt="Clean modern living space"
                     className="w-full h-full object-cover"
                   />

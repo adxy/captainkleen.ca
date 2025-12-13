@@ -8,9 +8,9 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Maple Clean Co. | Family-Owned Canadian Cleaning Services",
+  title: "CaptainKleen | Professional Canadian Cleaning Services",
   description:
-    "Professional cleaning services by a trusted Canadian family business. Serving 10 cities across Canada with residential and commercial cleaning.",
+    "Professional cleaning services by CaptainKleen. Serving cities across Canada with residential and commercial cleaning.",
     generator: 'v0.app'
 }
 

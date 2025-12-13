@@ -10,7 +10,7 @@ export function Footer() {
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                 <Sparkles className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-lg font-semibold text-foreground">Maple Clean Co.</span>
+              <span className="text-lg font-semibold text-foreground">CaptainKleen</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Family-owned Canadian cleaning services since 2008. Making homes sparkle coast to coast.
@@ -93,7 +93,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Maple Clean Co. All rights reserved.
+            © {new Date().getFullYear()} CaptainKleen. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">🍁 Proudly Canadian</p>
         </div>

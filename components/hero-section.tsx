@@ -15,23 +15,23 @@ export function HeroSection() {
         <div className="absolute inset-0 overflow-hidden">
           {/* Top left image */}
           <div className="absolute top-24 left-8 lg:left-16 w-32 h-32 lg:w-48 lg:h-48 rounded-2xl overflow-hidden shadow-2xl rotate-[-8deg] opacity-80 hidden sm:block">
-            <Image src="/professional-cleaner-mopping-modern-kitchen-floor.jpg" alt="Professional kitchen cleaning" fill className="object-cover" />
+            <Image src="/images/canadian_kitchen.png" alt="Professional kitchen cleaning" fill className="object-cover" />
           </div>
 
           {/* Top right image */}
           <div className="absolute top-32 right-8 lg:right-20 w-28 h-28 lg:w-44 lg:h-44 rounded-2xl overflow-hidden shadow-2xl rotate-[6deg] opacity-80 hidden sm:block">
-            <Image src="/sparkling-clean-bathroom-with-white-tiles.jpg" alt="Sparkling clean bathroom" fill className="object-cover" />
+            <Image src="/images/1.jpeg" alt="Sparkling clean bathroom" fill className="object-cover" />
           </div>
 
           {/* Middle left image */}
           <div className="absolute top-1/2 -translate-y-1/2 left-4 lg:left-12 w-24 h-36 lg:w-36 lg:h-52 rounded-2xl overflow-hidden shadow-2xl rotate-[-4deg] opacity-70 hidden lg:block">
-            <Image src="/happy-family-in-clean-living-room.jpg" alt="Happy family in clean home" fill className="object-cover" />
+            <Image src="/images/canadian_living_room.png" alt="Happy family in clean home" fill className="object-cover" />
           </div>
 
           {/* Middle right image */}
           <div className="absolute top-1/2 -translate-y-1/3 right-4 lg:right-12 w-28 h-40 lg:w-40 lg:h-56 rounded-2xl overflow-hidden shadow-2xl rotate-[5deg] opacity-70 hidden lg:block">
             <Image
-              src="/cleaning-supplies-eco-friendly-products-organized.jpg"
+              src="/images/2.jpeg"
               alt="Eco-friendly cleaning supplies"
               fill
               className="object-cover"
@@ -40,12 +40,12 @@ export function HeroSection() {
 
           {/* Bottom left image */}
           <div className="absolute bottom-32 left-12 lg:left-24 w-36 h-28 lg:w-52 lg:h-40 rounded-2xl overflow-hidden shadow-2xl rotate-[3deg] opacity-75 hidden md:block">
-            <Image src="/professional-team-cleaning-office-space-modern.jpg" alt="Professional cleaning team" fill className="object-cover" />
+            <Image src="/images/cleaning_team.png" alt="Professional cleaning team" fill className="object-cover" />
           </div>
 
           {/* Bottom right image */}
           <div className="absolute bottom-24 right-16 lg:right-28 w-32 h-24 lg:w-48 lg:h-36 rounded-2xl overflow-hidden shadow-2xl rotate-[-5deg] opacity-75 hidden md:block">
-            <Image src="/clean-organized-bedroom-fresh-linens.jpg" alt="Fresh clean bedroom" fill className="object-cover" />
+            <Image src="/images/3.jpeg" alt="Fresh clean bedroom" fill className="object-cover" />
           </div>
         </div>
 
