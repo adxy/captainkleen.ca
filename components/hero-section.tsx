@@ -5,6 +5,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Shield, Clock, Heart } from "lucide-react"
 import { QuoteModal } from "./quote-modal"
+import Image from "next/image"
 
 export function HeroSection() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -26,6 +27,18 @@ export function HeroSection() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="text-center max-w-4xl mx-auto">
+            {/* Large Logo */}
+            <div className="flex justify-center mb-8">
+              <Image
+                src="/captainkleen-logo.png"
+                alt="CaptainKleen Logo"
+                width={320}
+                height={100}
+                className="h-32 sm:h-28 lg:h-60 w-auto"
+                priority
+              />
+            </div>
+
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 backdrop-blur-sm border border-border/50 shadow-sm mb-8 hover:bg-secondary/80 transition-colors cursor-default">
               <span className="text-sm font-medium text-foreground/80">🍁 Proudly Canadian, Family-Owned Since 2008</span>
             </div>
@@ -61,7 +74,7 @@ export function HeroSection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
               {[
-                { icon: Shield, title: "100% Satisfaction", desc: "Guaranteed or re-clean free" },
+                { icon: Shield, title: "Professional Equipment", desc: "industry-leading cleaning" },
                 { icon: Clock, title: "Flexible Scheduling", desc: "Book when it suits you" },
                 { icon: Heart, title: "Eco-Friendly", desc: "Safe products for your family" },
               ].map((item, index) => (

@@ -10,7 +10,6 @@ const cities = [
   { name: "Peachland", province: "BC", available: true },
   { name: "Summerland", province: "BC", available: true },
   { name: "Penticton", province: "BC", available: true },
-  { name: "Kaleden", province: "BC", available: true },
   { name: "Okanagan Falls", province: "BC", available: true },
 ];
 
@@ -25,8 +24,7 @@ export function CitiesSection() {
             Proudly serving across Canada
           </h2>
           <p className="text-lg text-muted-foreground text-pretty">
-            From coast to coast, Maple Clean Co. brings professional cleaning services to your neighborhood. Find us in
-            these 10 Canadian cities.
+            From coast to coast, CaptainKleen brings professional cleaning services to your neighborhood. Find us in these 10 Okanagan valley cities.
           </p>
         </div>
 

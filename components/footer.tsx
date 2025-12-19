@@ -1,4 +1,4 @@
-import { Sparkles } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -6,12 +6,15 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-lg font-semibold text-foreground">CaptainKleen</span>
-            </div>
+            <a href="#" className="flex items-center gap-2 mb-4">
+              <Image
+                src="/captainkleen-logo.png"
+                alt="CaptainKleen Logo"
+                width={180}
+                height={56}
+                className="h-14 w-auto"
+              />
+            </a>
             <p className="text-sm text-muted-foreground">
               Family-owned Canadian cleaning services since 2008. Making homes sparkle coast to coast.
             </p>

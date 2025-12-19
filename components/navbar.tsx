@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Sparkles, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import { QuoteModal } from "./quote-modal"
 
 export function Navbar() {
@@ -35,12 +36,16 @@ export function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-lg font-semibold tracking-tight text-foreground">CaptainKleen</span>
-            </div>
+            <a href="#" className="flex items-center gap-2">
+              <Image
+                src="/captainkleen-logo.png"
+                alt="CaptainKleen Logo"
+                width={180}
+                height={56}
+                className="h-14 w-auto"
+                priority
+              />
+            </a>
 
             <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (

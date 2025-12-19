@@ -11,7 +11,7 @@ export function AboutSection() {
               A family tradition of cleanliness
             </h2>
             <p className="text-lg text-muted-foreground mb-6 text-pretty">
-              What started in our small Toronto home in 2008 has grown into a trusted cleaning service across 10
+              What started in our small Kelowna home in 2008 has grown into a trusted cleaning service across 10
               Canadian cities. We&apos;re the Petersons — a family that believes a clean space is the foundation of a
               happy home.
             </p>

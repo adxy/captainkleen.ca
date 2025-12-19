@@ -18,8 +18,8 @@ const features = [
   },
   {
     icon: CheckCircle2,
-    title: "Satisfaction Guaranteed",
-    description: "Not happy? We'll re-clean for free within 24 hours, no questions asked.",
+    title: "Professional Equipment",
+    description: "Steam cleaning machines and industry-leading solutions for superior results.",
   },
   {
     icon: Clock,
@@ -40,7 +40,7 @@ export function WhyUsSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">Why Choose Us</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6 text-balance">
-            The Maple Clean difference
+            The CaptainKleen difference
           </h2>
           <p className="text-lg text-muted-foreground text-pretty">
             We&apos;re not just another cleaning company. We&apos;re your neighbors, committed to making Canadian homes
