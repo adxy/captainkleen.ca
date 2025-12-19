@@ -4,6 +4,7 @@ import { Inter, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import Script from "next/script"
 
 const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -33,6 +34,7 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <Analytics />
+        <Script src="https://tally.so/widgets/embed.js" strategy="afterInteractive" />
       </body>
     </html>
   )
