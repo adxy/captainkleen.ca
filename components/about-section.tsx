@@ -8,17 +8,23 @@ export function AboutSection() {
           <div>
             <span className="text-sm font-medium text-primary uppercase tracking-wider">About Us</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6 text-balance">
-              A family tradition of cleanliness
+              More than just a cleaning service
             </h2>
             <p className="text-lg text-muted-foreground mb-6 text-pretty">
-              What started in our small Kelowna home in 2008 has grown into a trusted cleaning service across 10
-              Canadian cities. We&apos;re the Petersons — a family that believes a clean space is the foundation of a
-              happy home.
+              We are a family-owned and operated cleaning service, built on strong values, honest work, and long-term
+              relationships with our clients. What began as a small, humble, hands-on operation in Kelowna has grown
+              into a professional cleaning company serving multiple Canadian communities, without losing the personal
+              touch that sets us apart. Since inception in 2008, we have been serving 10 Canadian cities with equal zeal
+              and precision. From everyday home cleaning to specialised carpet and upholstery cleaning, CaptainKleen is
+              trusted by families, homeowners, tenants, and businesses across Canada for reliable results and
+              personalised service. Our immense experience and expertise in the cleaning services arena, and our ability
+              to provide superior quality output have given enormous confidence to our clients, who in turn advocates
+              our work among their circle.
             </p>
             <p className="text-lg text-muted-foreground mb-8 text-pretty">
-              Every member of our team is trained by us and shares our values: integrity, attention to detail, and
-              genuine care for our clients. When you book with CaptainKleen, you&apos;re not just getting a cleaning
-              service — you&apos;re becoming part of our extended family.
+              Every home and workspace we clean is treated with the same care and respect we would give our own. Our
+              clients value us not only for our results, but for our reliability, transparency, and commitment to doing
+              the job right, every single time.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -68,7 +74,7 @@ export function AboutSection() {
               </div>
             </div>
 
-            <div className="absolute -bottom-6 -left-6 p-4 rounded-xl bg-primary text-primary-foreground shadow-xl">
+            <div className="absolute -bottom-6 left-0 sm:-left-6 p-4 rounded-xl bg-primary text-primary-foreground shadow-xl w-[calc(100%-2rem)] sm:w-auto mx-4 sm:mx-0">
               <div className="flex items-center gap-3">
                 <Award className="w-10 h-10" />
                 <div>

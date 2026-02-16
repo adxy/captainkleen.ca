@@ -8,6 +8,7 @@ import { PricingSection } from "@/components/pricing-section"
 import { CitiesSection } from "@/components/cities-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
+import { ServicesSection } from "@/components/services-section"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <WhyUsSection />
+      <ServicesSection />
       <BentoGallery />
       <ReviewsSection />
       <PricingSection />

@@ -3,39 +3,44 @@ import { CheckCircle2, Sparkles, Shield, Clock, Leaf, Users, CreditCard, Phone }
 const features = [
   {
     icon: Users,
-    title: "Family-Owned & Operated",
-    description: "Not a franchise — a real family that cares about your home as much as you do.",
+    title: "Family-Owned & Personally Invested",
+    description:
+      "As a family-run business, we take pride in every home and workspace we care for. Our reputation matters, and we focus on building long-term relationships with our clients.",
+  },
+  {
+    icon: Users,
+    title: "Professional, Trained Team",
+    description:
+      "Our cleaners are skilled, experienced, and fully trained in the latest cleaning techniques. Equipped with professional tools and knowledge, they ensure every service is delivered consistently.",
   },
   {
     icon: Shield,
-    title: "Fully Insured & Bonded",
-    description: "Complete peace of mind with comprehensive coverage for your property.",
+    title: "Clean with Confidence - Fully Insured & Bonded",
+    description:
+      "All our services are fully insured and bonded, giving you complete peace of mind. Whether it’s your home, office, or treasured belongings, everything is protected.",
   },
   {
     icon: Leaf,
-    title: "Eco-Friendly Products",
-    description: "Safe for your kids, pets, and the environment without compromising clean.",
-  },
-  {
-    icon: CheckCircle2,
-    title: "Professional Equipment",
-    description: "Steam cleaning machines and industry-leading solutions for superior results.",
-  },
-  {
-    icon: Clock,
-    title: "Flexible Scheduling",
-    description: "Book online 24/7. Same-day service available in most cities.",
+    title: "Eco-Friendly Cleaning Products",
+    description:
+      "We prioritise both cleanliness and the health of your home. That’s why we use eco-friendly, non-toxic cleaning products that are safe for children, pets, and sensitive surfaces.",
   },
   {
     icon: CreditCard,
     title: "Transparent Pricing",
-    description: "No hidden fees. Get an instant quote and know exactly what you'll pay.",
+    description: "No hidden fees, no surprises — just clear, honest pricing for every service.",
+  },
+  {
+    icon: Clock,
+    title: "Flexible Scheduling",
+    description:
+      "We provide flexible scheduling options to fit your lifestyle and business needs, including recurring services, one-time deep cleans, and emergency appointments.",
   },
 ]
 
 export function WhyUsSection() {
   return (
-    <section id="why-us" className="py-24 lg:py-32 bg-secondary/30">
+    <section id="why-us" className="py-24 lg:py-32 bg-secondary/30 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">Why Choose Us</span>
@@ -43,8 +48,9 @@ export function WhyUsSection() {
             The CaptainKleen difference
           </h2>
           <p className="text-lg text-muted-foreground text-pretty">
-            We&apos;re not just another cleaning company. We&apos;re your neighbors, committed to making Canadian homes
-            sparkle with care and integrity.
+            At CaptainKleen, we don’t just clean — we elevate the spaces you live and work in. Our family-run team
+            brings professionalism, trust, and a personal touch to every service, ensuring your home or office shines
+            with care and precision. Here’s why Canadians choose CaptainKleen:
           </p>
         </div>
 

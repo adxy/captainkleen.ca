@@ -90,17 +90,17 @@ export function ReviewsSection() {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-8 bg-card border border-border rounded-2xl px-8 py-6">
+          <div className="flex flex-col sm:flex-row sm:inline-flex items-center gap-6 sm:gap-8 bg-card border border-border rounded-2xl px-8 py-6 w-full sm:w-auto max-w-[280px] sm:max-w-none mx-auto">
             <div className="text-center">
               <p className="text-3xl font-bold text-primary">4.9</p>
               <p className="text-sm text-muted-foreground">Average Rating</p>
             </div>
-            <div className="w-px h-12 bg-border" />
+            <div className="w-16 h-px sm:w-px sm:h-12 bg-border" />
             <div className="text-center">
               <p className="text-3xl font-bold text-foreground">2,500+</p>
               <p className="text-sm text-muted-foreground">Happy Customers</p>
             </div>
-            <div className="w-px h-12 bg-border" />
+            <div className="w-16 h-px sm:w-px sm:h-12 bg-border" />
             <div className="text-center">
               <p className="text-3xl font-bold text-foreground">15+</p>
               <p className="text-sm text-muted-foreground">Years Experience</p>

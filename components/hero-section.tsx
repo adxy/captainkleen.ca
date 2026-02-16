@@ -49,8 +49,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-pretty">
-              Professional cleaning services delivered with care. We treat every home like our own, because we know how
-              much it means to come back to a fresh, clean space.
+              “Cleanliness is next to godliness” and CaptainKleen makes it happen flawlessly through its remarkable cleaning services available across Canada. We believe exceptional cleaning goes far beyond appearances. 
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
